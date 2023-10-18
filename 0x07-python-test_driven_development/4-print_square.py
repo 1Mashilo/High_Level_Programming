@@ -1,19 +1,22 @@
 
+"""Defines a square-printing function."""
 
-def print_square(square_size):
-    """
-    Print a square using '#' characters.
+def print_square(size):
+    """Print a square with the # character.
 
     Args:
-        square_size (int): The size (side length) of the square.
-
+        size (int): The height/width of the square.
     Raises:
-        TypeError: If square_size is not an integer.
-        ValueError: If square_size is less than 0.
+        TypeError: If size is not an integer.
+        ValueError: If size is < 0
     """
-    if type(square_size) is not int:
-        raise TypeError("square_size must be an integer")
-    if square_size < 0:
-        raise ValueError("square_size must be >= 0")
-    if square_size > 0:
-        print(("#" * square_size + "\n") * square_size, end="")
+    if not isinstance(size, int):
+        raise TypeError("size must be an integer")
+    if size < 0:
+        raise ValueError("size must be >= 0")
+
+    for i in range(size):
+        if i == 0 or i == size - 1:
+            print("#" * size)
+        else:
+            print("#" + " " * (size - 2) + "#")
