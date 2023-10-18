@@ -10,6 +10,7 @@ def max_integer(integer_list=[]):
         int: The maximum integer in the list.
         None: If the list is empty.
     """
+    
     if len(integer_list) == 0:
         return None
     max_value = integer_list[0]

@@ -1,24 +1,28 @@
 
+
 def text_indentation(text):
     """
-    Split a text into lines along '?', ':', or '.', followed by two new lines.
+    Print text with two new lines after each '.', '?', and ':'.
 
     Args:
-        text (str): The text to be split into lines.
+        text (string): The text to print.
+    Raises:
+        TypeError: If text is not a string.
     """
-    if type(text) is not str:
+    if not isinstance(text, str):
         raise TypeError("text must be a string")
-    newline_flag = True
-    for character in text:
-        if newline_flag:
-            if character == ' ':
-                continue
-            else:
-                newline_flag = False
-        if not newline_flag:
-            if character in ['?', '.', ':']:
-                print(character)
-                print()
-                newline_flag = True
-            else:
-                print(character, end="")
+
+    current_index = 0
+    while current_index < len(text) and text[current_index] == ' ':
+        current_index += 1
+
+    while current_index < len(text):
+        print(text[current_index], end="")
+        if text[current_index] == "\n" or text[current_index] in ".?:":
+            if text[current_index] in ".?:":
+                print("\n")
+            current_index += 1
+            while current_index < len(text) and text[current_index] == ' ':
+                current_index += 1
+            continue
+        current_index += 1
