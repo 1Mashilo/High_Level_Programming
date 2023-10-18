@@ -101,19 +101,3 @@ class Square:
                 print("")
         return ("")
 
-
-
-# Create a Square object with size 5 and position (2, 2)
-square = Square(5, (2, 2))
-
-# Print the area of the square
-print("Area:", square.area())
-
-# Print the square using the my_print method
-print("my_print:")
-square.my_print()
-
-# Get the string representation of the square
-square_str = str(square)
-print("String representation:")
-print(square_str)
