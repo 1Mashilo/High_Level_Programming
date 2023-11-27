@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """
 This Python script concatenates two strings and prints a welcome message.
 

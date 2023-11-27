@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """
 This is a sample Python script that demonstrates writing an error message
 to the standard error stream and exiting with an error status code.

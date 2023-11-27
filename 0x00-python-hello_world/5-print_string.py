@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """
 This Python script manipulates a string by repeating it and printing a substring.
 

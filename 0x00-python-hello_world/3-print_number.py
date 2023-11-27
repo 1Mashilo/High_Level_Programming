@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """
 This Python script assigns an integer value to a variable and prints it with formatting.
 
