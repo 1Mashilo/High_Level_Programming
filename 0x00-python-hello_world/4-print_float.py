@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """
 This Python script assigns a floating-point number to a variable and prints it with formatting.
 

@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """
 This Python program manipulates a string by extracting specific portions and printing them.
 
