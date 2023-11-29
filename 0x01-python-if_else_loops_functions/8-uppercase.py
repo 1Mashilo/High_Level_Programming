@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def print_uppercase_line(input_str):
+def uppercase(str):
     """
     Print the input string in uppercase followed by a new line.
     
