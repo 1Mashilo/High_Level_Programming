@@ -11,6 +11,6 @@ and also prints the first 9 characters of 'str'.
 """
 
 str = "Holberton School"
-str = "Holberton School"
+
 print(str + str + str)
 print(str[:9])
