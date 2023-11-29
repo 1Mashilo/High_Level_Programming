@@ -13,5 +13,5 @@ in the 'print()' function ensures that the letters are
 printed on the same line without line breaks.
 
 """
-for letter in range(97, 123):
-    print("{}".format(chr(letter)), end="")
+for i in range(ord('a'), ord('z') + 1):
+    print('{:c}'.format(i), end='')
