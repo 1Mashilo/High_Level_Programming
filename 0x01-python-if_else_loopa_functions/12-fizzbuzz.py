@@ -1,9 +1,12 @@
+#!/usr/bin/python3
 def fizz_buzz():
     """
-    Print numbers from 1 to 100 with Fizz for multiples of 3, Buzz for multiples of 5,
+    Print numbers from 1 to 100 with Fizz for multiples of 3,
+    Buzz for multiples of 5,
     and FizzBuzz for multiples of both 3 and 5.
 
-    This function iterates through numbers from 1 to 100 and applies the FizzBuzz rules:
+    This function iterates through numbers from 1 to 100
+    and applies the FizzBuzz rules:
     - For multiples of 3, "Fizz" is printed.
     - For multiples of 5, "Buzz" is printed.
     - For multiples of both 3 and 5, "FizzBuzz" is printed.
@@ -23,6 +26,3 @@ def fizz_buzz():
             print("Buzz ", end="")
         else:
             print("{} ".format(number), end="")
-
-# Call the function to print the FizzBuzz sequence
-fizz_buzz()

@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Print all possible different combinations of two digits in ascending order.
 

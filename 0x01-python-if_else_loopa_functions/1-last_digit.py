@@ -1,5 +1,7 @@
+#!/usr/bin/python3
 """
-This Python program assigns a random signed number to the variable 'number' each time it is executed
+his Python program assigns a random signed number to the variable 'number'
+each time it is executed
 and prints its last digit along with specific conditions.
 
 It prints the string 'Last digit of [number] is [last_digit]' followed by:

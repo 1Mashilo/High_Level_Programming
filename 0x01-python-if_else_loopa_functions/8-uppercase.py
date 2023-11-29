@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def print_uppercase_line(input_str):
     """
     Print the input string in uppercase followed by a new line.
@@ -15,7 +16,3 @@ def print_uppercase_line(input_str):
             c = chr(ord(c) - 32)
         print("{}".format(c), end="")
     print("")
-
-# Test case 
-print_uppercase_line("hello, world!")
-print_uppercase_line("hello, MaSHilo!")
