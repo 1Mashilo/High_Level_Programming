@@ -1,5 +1,7 @@
+#!/usr/bin/python3
 """
-This Python script generates a random number between -10 and 10 and prints whether it's positive, zero, or negative.
+This Python script generates a random number between -10 and 10
+and prints whether it's positive, zero, or negative.
 """
 
 import random
