@@ -11,6 +11,6 @@ and also prints the first 9 characters of 'str'.
 """
 
 str = "Holberton School"
-
-print(3 * str)
+str = "Holberton School"
+print(str + str + str)
 print(str[:9])
