@@ -9,5 +9,5 @@ It prints each letter sequentially on the same line without line breaks.
 The 'chr()' function is used to convert the code points into characters.
 
 """
-for i in range(ord('a'), ord('z') + 1):
+for _ in range(ord('a'), ord('z') + 1):
     print('{:c}'.format(i), end='')
