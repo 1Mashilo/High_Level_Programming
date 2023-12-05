@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def swap_variables(a, b):
     """
     Swap the values of two variables.
