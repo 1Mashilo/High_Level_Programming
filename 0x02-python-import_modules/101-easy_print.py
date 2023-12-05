@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """
 Write the message '#pythoniscool' to the standard output.
 
