@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 """
 Perform a custom calculation based on the values of 'a' and 'b'.
 
