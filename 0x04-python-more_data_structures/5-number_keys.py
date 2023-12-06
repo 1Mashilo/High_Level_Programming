@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def count_keys_in_dictionary(input_dict):
     """
     Count and return the number of keys in a dictionary.
