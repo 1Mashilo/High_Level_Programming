@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def only_diff_elements(set1, set2):
     """
     Find the elements that are unique to each set and not common to both sets.
