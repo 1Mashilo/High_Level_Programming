@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def sum_unique_integers(input_list=[]):
     """
     Calculate the sum of unique integers in the input list.
