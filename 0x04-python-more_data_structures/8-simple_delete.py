@@ -1,4 +1,6 @@
-def delete_key_from_dictionary(dictionary, key):
+#!/usr/bin/python3
+
+def delete_key_from_dictionarya(dictionary, key):
     """
     Delete a key from a dictionary, if it exists.
 
@@ -11,19 +13,4 @@ def delete_key_from_dictionary(dictionary, key):
     """
     if key in dictionary:
         del dictionary[key]
-    return dictionary
-
-
-# Test case
-
-sample_dict = {
-    'name': 'Alice',
-    'age': 25,
-    'city': 'New York',
-    'country': 'USA'
-}
-
-deleted_dict = delete_key_from_dictionary(sample_dict, 'age')
-
-print("Updated Dictionary:")
-print(deleted_dict)
+   return dictionary
