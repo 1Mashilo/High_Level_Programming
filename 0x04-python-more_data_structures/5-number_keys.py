@@ -17,19 +17,3 @@ def count_keys_in_dictionary(input_dict):
         key_count += 1
 
     return key_count
-
-# Test case 
-
-# Define a sample dictionary
-sample_dict = {
-    'name': 'John',
-    'age': 30,
-    'city': 'New York',
-    'country': 'USA'
-}
-
-# Call the function to count keys in the dictionary
-result = count_keys_in_dictionary(sample_dict)
-
-# Print the result
-print("Number of keys in the dictionary:", result)
