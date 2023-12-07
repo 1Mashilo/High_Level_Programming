@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 def complex_delete(a_dictionary, value):
     """
     Delete key-value pairs from a dictionary where the value matches the specified value.
