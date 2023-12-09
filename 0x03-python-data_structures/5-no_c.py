@@ -13,7 +13,7 @@ def no_c(my_string):
     Example:
         >>> no_c("Chocolate")
         'hocolate'
-        
+
         >>> no_c("Coffee")
         'offee'
     """
