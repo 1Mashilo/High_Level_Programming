@@ -11,7 +11,7 @@ def new_in_list(my_list, idx, element):
 
     Returns:
         list: A new list that is a copy of the original list with the specified element replaced.
-        
+
     Note:
         - If the index is out of range (negative or greater than the list length minus one),
           the original list is returned without modifications.
