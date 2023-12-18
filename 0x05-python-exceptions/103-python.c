@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 #include <stdio.h>
 #include <Python.h>
 
