@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-""" Working on oop with python """
+"""class Square that defines a square"""
 
 
 class Square():
-    """Class representing a square"""
+    """square class with it's size and proper validation"""
 
-    def __init__(self, size):
-        """ initialize the class
-
-        Args:
-           size (int): size of the square
-        """
+    def __init__(self, size=0):
+        if (type(size) is not int):
+            raise TypeError("size must be an integer")
+        elif (size < 0):
+            raise ValueError("size must be >= 0")
         self.__size = size
+        
