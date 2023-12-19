@@ -1,7 +1,7 @@
 
 #!/usr/bin/python3
 
-class Square:
+class Square():
 
     """A class for creating square objects.
 
@@ -22,5 +22,3 @@ class Square:
             size (int): The size of the new square.
         """
         self.__size = size
-
-
