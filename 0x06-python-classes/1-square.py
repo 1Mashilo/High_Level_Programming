@@ -1,24 +1,14 @@
-
 #!/usr/bin/python3
+""" Working on oop with python """
+
 
 class Square():
-
-    """A class for creating square objects.
-
-    This class allows the creation of square objects with a specified size.
-
-    Attributes:
-        __size (int): The size of the square.
-
-    Args:
-        size (int): The size of the new square.
-    """
+    """Class representing a square"""
 
     def __init__(self, size):
-        
-        """Initialize a new Square.
+        """ initialize the class
 
         Args:
-            size (int): The size of the new square.
+           size (int): size of the square
         """
         self.__size = size
