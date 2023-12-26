@@ -1,47 +1,41 @@
-# High-Level Programming in Python
+# Higher-level programming - Python, JavaScript, SQL
 
-Welcome to the High-Level Programming in Python repository! This repository covers a wide range of Python topics, including the basics, object-oriented programming, interpreted language concepts, test-driven development, error handling, I/O, and web scraping. Whether you're a beginner or an experienced developer, this resource will help you learn and explore Python in depth.
+This repository contains programs written for the Higher-level programming track at the ALX Software Engineering Program. In these projects, I learnt Python & SQL, and I also made use of concepts learnt.
+Simultaneously, I continued to reinforce and expand my skills in C and shell scripting. The specific list of projects contained follows:
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Installation Instructions](#installation-instructions)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
-6. [Acknowledgments](#acknowledgments)
-7. [Contact Information](#contact-information)
+* [0x00. Python - Hello, World](./0x00-python-hello_world)
+* [0x01. Python - if/else, loops, functions](./0x01-python-if_else_loops_functions)
+* [0x02. Python - import & modules](./0x02-python-import_modules)
+* [0x03. Python - Data Structures: Lists, Tuples](./0x03-python-data_structures)
+* [0x04. Python - More Data Structures: Set, Dictionary](./0x04-python-more_data_structures)
+* [0x05. Python - Exceptions](./0x05-python-exception)
+* [0x06. Python - Classes and Objects](./0x06-python-classes)
+* [0x07. Python - Test-driven development](./0x07-python-test_driven_development)
+* [0x08. Python - More Classes and Objects](./0x08-python-more_classes)
+* [0x09. Python - Everything is object](./0x09-python-everything_is_object)
+* [0x0A. Python - Inheritance](./0x0A-python-inheritance)
+* [0x0B. Python - Input/Output](./0x0B-python-input_output)
+* [0x0C. Python - Almost A Circle](./0x0C-python-almost_a_circle)
+* [0x0D. SQL - Introduction](./0x0D-SQL_introduction)
+* [0x0E. SQL - More Queries](./0x0E-SQL_more_queries)
+* [0x0F. Python - Object Relational Mapping](./0x0F-python-object_relational_mapping)
+* [0x10. Python - Network 0](0x10-python-network_0)
+* [0x11. Python - Network 1](0x11-python-network_1)
+* [0x12. JavaScript - Warm up](./0x12-javascript-warm_up)
+* [0x13. JavaScript - Objects, Scopes and Closures](./0x13-javascript_objects_scopes_closures)
+* [0x14. Javascript - Web scraping](./0x14-javascript-web_scraping)
+* [0x15. Javascript - Web JQuery](./0x15-javascript-web_jquery)
 
-## Introduction
-In this repository, you'll find a collection of Python projects and tutorials that cover various aspects of high-level programming. Python is known for its simplicity, readability, and versatility, making it an excellent choice for both beginners and experienced developers. Here, you can explore the following topics:
+## Author :
+* **Mashilo Kgaladi** <[Mashilo](https://github.com/1Mashilo)>
 
-- **Python Basics**: Understand the fundamentals of Python, including variables, data types, and control structures.
+## Acknowledgements:
 
-- **Object-Oriented Programming (OOP)**: Learn how to create classes, objects, and implement OOP principles in Python.
+All work contained in this project was completed as part of the curriculum for the ALX-SE programme. ALX Africa is an online full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning. For more information, visit [this link](https://www.alxafrica.com//).
 
-- **Interpreted Language**: Explore the advantages and characteristics of interpreted languages like Python.
 
-- **Test-Driven Development (TDD)**: Discover how to write tests before code and ensure robust software development.
-
-- **Error Handling**: Master the art of handling exceptions and errors gracefully in Python programs.
-
-- **I/O and Web Scraping**: Dive into input/output operations and web scraping techniques using Python.
-
-## Installation Instructions
-If you need to install specific libraries or dependencies for any of the projects or tutorials in this repository, refer to the individual README files in each project folder for detailed installation instructions.
-
-## Usage
-Explore the projects and tutorials in this repository to enhance your Python skills. Each project comes with its own README file, providing usage guidelines and examples. Whether you're looking to learn, practice, or build something new, this repository has something for you.
-
-## Contributing
-We welcome contributions from the open-source community. If you'd like to contribute to this repository, please follow our [Contribution Guidelines](CONTRIBUTING.md) for details on how to get started.
-
-## License
-This project is open-source and available under the [MIT License](LICENSE). For more information, please see the [LICENSE](LICENSE) file.
-
-## Acknowledgments
-We would like to acknowledge and thank the Python community for their continuous support and contributions to the world of high-level programming.
-
-## Contact Information
-If you have any questions, suggestions, or just want to say hello, feel free to reach out to us at [christophermashilo@gmail.com](mailto:christophermashilo@gmail.com).
-
-Happy coding!
+<p align="center">
+  <img src="http://www.alxafrica.com/wp-content/uploads/2022/01/header-logo.png"
+    alt="ALX Africa Logo"
+  >
+  </p>
