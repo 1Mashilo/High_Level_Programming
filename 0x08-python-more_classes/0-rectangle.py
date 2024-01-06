@@ -1,4 +1,4 @@
-
+#!/bin/bash
 """Defines a Rectangle class."""
 
 class Rectangle:
