@@ -1,5 +1,4 @@
-
-
+#!/usr/bin/python3
 import numpy
 
 def lazy_matrix_mul(matrix_a, matrix_b):
