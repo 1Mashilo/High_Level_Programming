@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
@@ -26,3 +26,4 @@ class Rectangle(BaseGeometry):
         string = "[" + str(self.__class__.__name__) + "] "
         string += str(self.__width) + "/" + str(self.__height)
         return string
+        
