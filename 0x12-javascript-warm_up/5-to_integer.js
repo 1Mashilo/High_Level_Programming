@@ -2,10 +2,10 @@
 
 const arg = process.argv[2];
 
-const converted = parseInt(arg);
+const potentialNumber = Math.floor(Number(arg));
 
-if (isNaN(converted)) {
+if (isNaN(potentialNumber)) {
   console.log('Not a number');
 } else {
-  console.log('My Number:', converted);
+  console.log('My number:', potentialNumber);
 }
