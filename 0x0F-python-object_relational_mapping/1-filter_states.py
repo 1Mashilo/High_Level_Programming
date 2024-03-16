@@ -20,9 +20,8 @@ if __name__ == "__main__":
         cursor = db.cursor()
 
         # Execute SQL query (with filtering)
-        cursor.execute("SELECT id, "
-                       "name FROM states WHERE name "
-                       "LIKE 'N%' ORDER BY id ASC")
+        cursor.execute("""SELECT * FROM states WHERE name
+                LIKE BINARY 'N%' ORDER BY states.id""")
         results = cursor.fetchall()
 
         # Print Results
