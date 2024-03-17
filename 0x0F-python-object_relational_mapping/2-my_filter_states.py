@@ -7,19 +7,13 @@ import sys
 
 if __name__ == "__main__":
 
-    username = sys.argv[1]
-    password = sys.argv[2]
-    db_name = sys.argv[3]
-
-    # Database Connection
     db = MySQLdb.connect(host="localhost",
                          port=3306,
-                         user=username,
-                         passwd=password,
-                         db=db_name)
+                         user=sys.argv[1],
+                         passwd=sys.argv[1],
+                         db=sys.argv[1])
     cursor = db.cursor()
 
-    # Execute SQL query (Safe input handling)
     sql_query = ("SELECT * FROM states WHERE name BINARY '{}'"
                  .format(sys.argv[4]))
 
