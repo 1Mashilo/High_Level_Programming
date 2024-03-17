@@ -11,29 +11,24 @@ if __name__ == "__main__":
     db_name = sys.argv[3]
 
     # Database Connection
-    try:
-        db = MySQLdb.connect(host="localhost",
-                             port=3306,
-                             user=username,
-                             passwd=password,
-                             db=db_name)
-        cursor = db.cursor()
+    db = MySQLdb.connect(host="localhost",
+                         port=3306,
+                         user=username,
+                         passwd=password,
+                         db=db_name)
+    cursor = db.cursor()
 
-        # Execute SQL query (with filtering)
-        cursor.execute("""SELECT * FROM states WHERE name
-                LIKE BINARY 'N%' ORDER BY states.id""")
-        results = cursor.fetchall()
+    # Execute SQL query (with filtering)
+    cursor.execute("""SELECT * FROM states WHERE name
+            LIKE BINARY 'N%' ORDER BY states.id""")
+    results = cursor.fetchall()
 
-        # Print Results
-        for row in results:
-            print(f"{row[0]}: {row[1]}")
+    # Print Results
+    for row in results:
+        print(row)
 
-    except MySQLdb.Error as e:
-        print(f"Error: {e}")
-
-    finally:
-        # Close database connections
-        if cursor:
-            cursor.close()
-        if db:
-            db.close()
+    # Close database connections
+    if cursor:
+        cursor.close()
+    if db:
+        db.close()
