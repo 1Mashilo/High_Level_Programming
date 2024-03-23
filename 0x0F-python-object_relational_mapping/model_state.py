@@ -5,7 +5,7 @@ This module provides the SQLAlchemy model definition for representing states wit
 a database. It includes the 'State' class.
 """
 
-from sqlalchemy import Column, Integer, String, Identity
+from sqlalchemy import Column, Integer, String, Identity, MetaData
 from sqlalchemy.ext.declarative import declarative_base
 
 mymetadata = MetaData()
