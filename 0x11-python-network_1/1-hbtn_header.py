@@ -2,10 +2,10 @@
 import urllib.request
 import sys
 
-
 if __name__ == "__main__":
     """
-    Sends a request to a URL and prints the value of the 'X-Request-Id' header in the response.
+    Sends a request to a URL and prints the value
+    of the 'X-Request-Id' header in the response.
 
     Args:
         url (str): The URL to send the request to.
