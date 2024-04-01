@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 
-"""A script that
-- fetches https://alx-intranet.hbtn.io/status.
-- uses urlib package
+"""
+This script fetches the status of https://alx-intranet.hbtn.io/status using the urllib package.
+
+The script sends a GET request to the specified URL and retrieves the response. It then prints the following information:
+- The type of the response body
+- The content of the response body
+- The UTF-8 decoded content of the response body
 """
 
 import urllib.request
